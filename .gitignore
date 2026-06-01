@@ -1,0 +1,7 @@
+# dev/preview artifacts — not part of the website
+tools/shot*.js
+tools/shot-*.png
+tools/sec-*.png
+.DS_Store
+Thumbs.db
+node_modules/
