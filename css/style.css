@@ -380,3 +380,20 @@ body.menu-open .burger span:nth-child(3) { top: 9px; transform: rotate(-45deg); 
   .hero-cta { flex-direction: column; align-items: center; }
   .hero-cta .btn { width: 100%; max-width: 280px; justify-content: center; }
 }
+
+/* ---------- films (Instagram embeds) ---------- */
+.films-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 26px;
+  align-items: start;
+}
+.films-grid .instagram-media {
+  min-width: 0 !important;
+  width: 100% !important;
+  margin: 0 !important;
+}
+.films-cta { text-align: center; margin-top: 52px; }
+@media (max-width: 620px) {
+  .films-grid { grid-template-columns: 1fr; max-width: 420px; margin: 0 auto; }
+}
