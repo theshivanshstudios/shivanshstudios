@@ -141,7 +141,8 @@ body.menu-open .burger span:nth-child(3) { top: 9px; transform: rotate(-45deg); 
 .hero-inner { position: relative; z-index: 2; max-width: 920px; padding: 0 28px; }
 .hero .eyebrow { color: #e7cfa6; }
 .hero h1 {
-  font-size: clamp(2.6rem, 7vw, 5.4rem); margin: 22px 0 0; font-weight: 500;
+  font-size: clamp(2.2rem, 6vw, 4.6rem); margin: 22px 0 0; font-weight: 500;
+  white-space: nowrap;
   text-shadow: 0 2px 30px rgba(0,0,0,.35);
 }
 .hero h1 em { font-style: italic; color: #ecd2a8; }
@@ -379,6 +380,7 @@ body.menu-open .burger span:nth-child(3) { top: 9px; transform: rotate(-45deg); 
   .masonry { column-count: 1; }
   .hero-cta { flex-direction: column; align-items: center; }
   .hero-cta .btn { width: 100%; max-width: 280px; justify-content: center; }
+  .hero h1 { white-space: normal; }
 }
 
 /* ---------- films (Instagram embeds) ---------- */
